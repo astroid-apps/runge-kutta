@@ -9,7 +9,15 @@ Calculation of simultaneous ordinary differential equations by the Runge–Kutta
 node index.js
 ```
 
-# Usage
+# Sample
+Equation to be solved: d^2 x/dt^2 = f(t,x)
+
+f(t,x) = [ x[1], -x[0] ]
+
+Init value = [1, 0]
+
+Time step = 0.1
+
 ```JavaScript
 const rks = new RungeKuttaSolver(0.1,[1,0],function(t,x){
 	return [
