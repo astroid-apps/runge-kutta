@@ -10,9 +10,9 @@ node index.js
 ```
 
 # Sample
-Equation to be solved: d^2 x/dt^2 = f(t,x)
+Equation to be solved: d^2 x/dt^2 = -x
 
-f(t,x) = [ x[1], -x[0] ]
+Converted equation as simultaneous equations: dx/dt = f(t,x), f(t,x) = [ x[1], -x[0] ]
 
 Init value = [1, 0]
 
