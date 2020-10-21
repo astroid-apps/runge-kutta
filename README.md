@@ -12,7 +12,7 @@ node index.js
 # Sample
 Equation to be solved: d^2 y/dt^2 = -y
 
-The equation is converted to d**x**/dt = f(t,**x**)
+The equation can be converted to simultaneous equations d**x**/dt = f(t,**x**)
 
 Where **x** = [ x[0], x[1] ] = [y, dy/dt] and f(t,**x**) = [ x[1], -x[0] ].
 
