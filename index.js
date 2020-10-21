@@ -13,7 +13,7 @@ const demo1 = function(){
 
 	for(let i=0;i<100;i++){
 		//解析解 Analytical solution
-		const x = Math.cos(-rks.getTime());
+		const x = Math.cos(rks.getTime());
 
 		console.log(rks.getTime(), ",", rks.getX().join(","), ",", x);
 		rks.step();	
