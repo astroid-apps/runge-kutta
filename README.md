@@ -14,9 +14,9 @@ Equation to be solved: d^2 y/dt^2 = -y
 
 The equation is converted to dx/dt = f(t,x), f(t,x) = [ x[1], -x[0] ]
 
-Where x[0] = y, x[1] = dy/dt.
+Where x = [ x[0], x[1] ] = [y, dy/dt].
 
-Init value = [1, 0]
+Init value x(t=0) = [1, 0]
 
 Time step = 0.1
 
