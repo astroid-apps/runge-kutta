@@ -6,7 +6,7 @@ Calculation of simultaneous ordinary differential equations by the Runge–Kutta
 # Demo
 
 ```JavaScript
-node index.js
+node index.js > output.csv
 ```
 
 # Sample
@@ -36,7 +36,7 @@ for(let i=0;i<100;i++){
 	rks.step();	
 }
  ```
-Output:
+output.csv:
 ```
 0 , 1,0 , 1
 0.1 , 0.9950041666666667,-0.09983333333333333 , 0.9950041652780257
