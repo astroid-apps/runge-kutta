@@ -30,7 +30,7 @@ const rks = new RungeKuttaSolver(0.1,[1,0],function(t,x){
 
 for(let i=0;i<100;i++){
 	//解析解 Analytical solution
-	const x = Math.cos(-rks.getTime());
+	const x = Math.cos(rks.getTime());
 
 	console.log(rks.getTime(), ",", rks.getX().join(","), ",", x);
 	rks.step();	
