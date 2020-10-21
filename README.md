@@ -12,17 +12,23 @@ node index.js
 # Usage
 ```JavaScript
 const rks = new RungeKuttaSolver(0.1,[1,0],function(t,x){
-		return [
-			x[1],
-			-x[0]
-		];
-	});
+	return [
+		x[1],
+		-x[0]
+	];
+});
 
-	for(let i=0;i<100;i++){
-		//解析解 Analytical solution
-		const x = Math.cos(-rks.getTime());
+for(let i=0;i<100;i++){
+	//解析解 Analytical solution
+	const x = Math.cos(-rks.getTime());
 
-		console.log(rks.getTime(), ",", rks.getX().join(","), ",", x);
-		rks.step();	
-	}
+	console.log(rks.getTime(), ",", rks.getX().join(","), ",", x);
+	rks.step();	
+}
  ```
+
+# Link
+https://github.com/astroid-apps/pendulum-simulation
+
+https://github.com/astroid-apps/double-pendulum-simulation
+
