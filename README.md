@@ -12,9 +12,9 @@ node index.js
 # Sample
 Equation to be solved: d^2 y/dt^2 = -y
 
-The equation is converted to dx/dt = f(t,x), f(t,x) = [ x[1], -x[0] ]
+The equation is converted to dx/dt = f(t,x)
 
-Where x = [ x[0], x[1] ] = [y, dy/dt].
+Where x = [ x[0], x[1] ] = [y, dy/dt] and f(t,x) = [ x[1], -x[0] ].
 
 Init value x(t=0) = [1, 0]
 
