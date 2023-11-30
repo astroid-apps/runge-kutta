@@ -1,4 +1,4 @@
-const RungeKuttaSolver = require("./RungeKuttaSolver.js");
+import RungeKuttaSolver from "./RungeKuttaSolver.js";
 
 // d^2 x/dt^2 = -x
 // d[x0,x1]/dt = [x1,-x0]
@@ -57,5 +57,5 @@ const demo3 = function(){
 };
 
 demo1();
-//demo2();
-//demo3();
+// demo2();
+// demo3();
